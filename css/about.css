@@ -1,0 +1,337 @@
+/* About Page Specific Styles */
+
+/* Hero Section */
+#about-hero {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/040/285/614/small/ai-generated-a-burger-is-shown-with-smoke-coming-off-of-it-free-photo.jpeg');
+}
+
+
+
+/* Philosophy Section */
+.philosophy-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xl);
+}
+
+.philosophy-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.philosophy-stats {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 150px;
+  background-color: var(--background-light);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-md);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.stat-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-sm);
+  font-family: var(--font-heading);
+}
+
+.stat-text {
+  color: var(--text-medium);
+  font-size: 1rem;
+}
+/* Team Section */
+.one{
+  
+  text-align: center;
+  align-items: center;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+ 
+  margin-top: var(--space-lg);
+   display: flex;
+  justify-content: space-between;
+}
+
+.team-member {
+  background-color: var(--color-white);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-medium);
+  text-align: center;
+  margin-left: 20px;
+    margin-right: 20px;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.member-photo {
+  height: 280px;
+  overflow: hidden;
+}
+
+.member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.team-member:hover .member-photo img {
+  transform: scale(1.05);
+}
+
+.team-member h3 {
+  margin: var(--space-sm) 0 0.25rem;
+  color: var(--color-primary);
+}
+
+.member-title {
+  color: var(--color-text-light);
+  font-style: italic;
+  margin-bottom: var(--space-sm);
+}
+
+.member-bio {
+  padding: 0 var(--space-sm) var(--space-sm);
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+
+/* Menu Section */
+.menu-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--spacing-lg);
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+.menu-tab {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: transparent;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-medium);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all var(--transition-normal);
+}
+
+.menu-tab:hover {
+  color: var(--primary-color);
+}
+
+.menu-tab.active {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+}
+
+.menu-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu-section {
+  display: none;
+}
+
+.menu-section.active {
+  display: block;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.menu-grid .menu-item {
+  display: block;
+  background-color: var(--background-light);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.menu-grid .menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.menu-grid .menu-item h4 {
+  color: var(--text-dark);
+  margin-bottom: var(--spacing-xs);
+  font-size: 1.2rem;
+}
+
+.menu-grid .menu-item .price {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+}
+
+.menu-grid .menu-item .description {
+  color: var(--text-medium);
+  font-size: 0.9rem;
+}
+
+.menu-note {
+  text-align: center;
+  margin-top: var(--spacing-lg);
+  font-style: italic;
+  color: var(--text-medium);
+}
+
+/* Gallery Section */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  height: 200px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .stat-item {
+    min-width: 120px;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+  
+  .menu-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .journey-content,
+  .team-member {
+    flex-direction: column;
+  }
+  
+  .member-image {
+    max-width: 100%;
+  }
+  
+  .stat-item {
+    min-width: 100px;
+  }
+  
+  .menu-tabs {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .menu-tab {
+    flex: 1;
+    min-width: 100px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .philosophy-stats {
+    flex-direction: column;
+  }
+  
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .menu-tabs {
+    flex-direction: column;
+  }
+  
+  .menu-tab {
+    width: 100%;
+    padding: var(--spacing-sm);
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius-md);
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  .menu-tab.active {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border-color: var(--primary-color);
+  }
+}
+/* Logo Styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: var(--spacing-sm);
+  border-radius: 50%;
+  object-fit: cover;
+}

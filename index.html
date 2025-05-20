@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eat & Meet | Fine Dining Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <header id="header">
+    <div class="container">
+     
+      <div class="logo">
+        
+        <a href="index.html">
+          <img src="img/pizza-7371507_1280.png" alt="Savoria Logo" class="logo-img">
+          <h1>Eat & Meet</h1>
+        </a>
+      </div>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+
+    <section id="banner-1" class="section banner">
+      <div class="swiper banner-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/Landing_image_Desktop.jpg" alt="Special Dish 1">
+            <div class="banner-content">
+              <h2>Seasonal Specials</h2>
+              <p>Discover our chef's latest creations</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Special Dish 2">
+            <div class="banner-content">
+              <h2>Wine Pairing</h2>
+              <p>Perfect combinations for your meal</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/shutterstock_2431160139.jpg" alt="Special Dish 3">
+            <div class="banner-content">
+              <h2>Chef's Table</h2>
+              <p>An intimate dining experience</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+   
+
+ 
+
+    <section id="menu-preview" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>Signature Dishes</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="menu-categories">
+          <div class="category-tabs">
+            <button class="tab-btn active" data-category="appetizers">Appetizers</button>
+            <button class="tab-btn" data-category="mains">Main Course</button>
+            <button class="tab-btn" data-category="desserts">Desserts</button>
+          </div>
+        </div>
+        <div class="menu-items">
+          <div class="category-content active" id="appetizers">
+            <div class="menu-item animate-on-scroll">
+              <div class="menu-item-image">
+                <img src="https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Truffle Arancini" />
+              </div>
+              <div class="menu-item-info">
+                <h4>Truffle Arancini</h4>
+                <p class="price">৳1400</p>
+                <p class="description">Crispy risotto balls infused with black truffle and parmesan, served with truffle aioli.</p>
+              </div>
+            </div>
+            <div class="menu-item animate-on-scroll">
+              <div class="menu-item-image">
+                <img src="https://images.pexels.com/photos/1998633/pexels-photo-1998633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Seared Scallops" />
+              </div>
+              <div class="menu-item-info">
+                <h4>Seared Scallops</h4>
+                <p class="price">৳2200</p>
+                <p class="description">Pan-seared scallops with cauliflower purée, crispy pancetta, and herb oil.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="category-content" id="mains">
+            <div class="menu-item animate-on-scroll">
+              <div class="menu-item-image">
+                <img src="https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Herb-Crusted Lamb" />
+              </div>
+              <div class="menu-item-info">
+                <h4>Herb-Crusted Lamb</h4>
+                <p class="price">৳4000</p>
+                <p class="description">Roasted rack of lamb with herb crust, served with confit garlic mashed potatoes and red wine jus.</p>
+              </div>
+            </div>
+            <div class="menu-item animate-on-scroll">
+              <div class="menu-item-image">
+                <img src="https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Miso Black Cod" />
+              </div>
+              <div class="menu-item-info">
+                <h4>Miso Black Cod</h4>
+                <p class="price">৳3800</p>
+                <p class="description">Miso-marinated black cod with bok choy, shiitake mushrooms, and ginger-soy reduction.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="category-content" id="desserts">
+            <div class="menu-item animate-on-scroll">
+              <div class="menu-item-image">
+                <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chocolate Fondant" />
+              </div>
+              <div class="menu-item-info">
+                <h4>Chocolate Fondant</h4>
+                <p class="price">৳1500</p>
+                <p class="description">Warm chocolate fondant with a molten center, served with vanilla bean ice cream and raspberry coulis.</p>
+              </div>
+            </div>
+            <div class="menu-item animate-on-scroll">
+              <div class="menu-item-image">
+                <img src="https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Crème Brûlée" />
+              </div>
+              <div class="menu-item-info">
+                <h4>Crème Brûlée</h4>
+                <p class="price">৳1200</p>
+                <p class="description">Classic vanilla bean crème brûlée with caramelized sugar crust and fresh berries.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-btn-container">
+          <a href="about.html#full-menu" class="btn primary-btn">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Gallery</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item animate-on-scroll">
+            <img src="img/top-view-table-full-food_23-2149209253.jpg" alt="Gallery Image 1">
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gallery Image 2">
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="img/unhealthy-fast-food-delivery-menu-featuring-assorted-burgers-cheeseburgers-nuggets-french-fries-soda-high-calorie-low-356045884.jpg" alt="Gallery Image 3">
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gallery Image 4">
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gallery Image 5">
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gallery Image 6">
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="img/download.jpg" alt="Gallery Image 3">
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="img/ss.jpg" alt="Gallery Image 4">
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="img/shutterstock_2431160139.jpg" alt="Gallery Image 5">
+          </div>
+          <div class="gallery-item animate-on-scroll">
+            <img src="img/Landing_image_Desktop.jpg" alt="Gallery Image 6">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>Customer Reviews</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="reviews-grid">
+          <div class="review-card animate-on-scroll">
+            <div class="review-header">
+              <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100" alt="John Smith" class="reviewer-image">
+              <div class="reviewer-info">
+                <h4>John Smith</h4>
+                <div class="rating">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">"An exceptional dining experience! The attention to detail in both food and service was remarkable."</p>
+          </div>
+          <div class="review-card animate-on-scroll">
+            <div class="review-header">
+              <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Sarah Johnson" class="reviewer-image">
+              <div class="reviewer-info">
+                <h4>Sarah Johnson</h4>
+                <div class="rating">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">"The tasting menu was a culinary journey that exceeded all expectations. Each course was a masterpiece."</p>
+          </div>
+          <div class="review-card animate-on-scroll">
+            <div class="review-header">
+              <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Michael Chen" class="reviewer-image">
+              <div class="reviewer-info">
+                <h4>Michael Chen</h4>
+                <div class="rating">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">"Impeccable service and stunning presentation. The wine pairing suggestions were perfect."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+        <section id="reviews" class="section bg-light">
+      <div class="container">
+        
+        <div class="reviews-grid">
+          <div class="review-card animate-on-scroll">
+            <div class="review-header">
+              <img src="img/images.jpg" alt="John Smith" class="reviewer-image">
+              <div class="reviewer-info">
+                <h4>Jack Son</h4>
+                <div class="rating">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">"An exceptional dining experience! The attention to detail in both food and service was remarkable."</p>
+          </div>
+          <div class="review-card animate-on-scroll">
+            <div class="review-header">
+              <img src="img/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-help-listening-coworkers-taking-part-conversation_1258-59335.jpg" alt="Sarah Johnson" class="reviewer-image">
+              <div class="reviewer-info">
+                <h4>Rose</h4>
+                <div class="rating">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">"The tasting menu was a culinary journey that exceeded all expectations. Each course was a masterpiece."</p>
+          </div>
+          <div class="review-card animate-on-scroll">
+            <div class="review-header">
+              <img src="img/download.png" alt="Michael Chen" class="reviewer-image">
+              <div class="reviewer-info">
+                <h4>Mark Wood</h4>
+                <div class="rating">★★★★★</div>
+              </div>
+            </div>
+            <p class="review-text">"Impeccable service and stunning presentation. The wine pairing suggestions were perfect."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Guests Say</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="testimonials-slider">
+          <div class="testimonial-container">
+            <div class="testimonial active">
+              <div class="quote">"The dining experience at Savoria was absolutely exceptional. From the attentive service to the masterfully prepared dishes, every aspect exceeded our expectations."</div>
+              <div class="author">- James Wilson, Food Critic</div>
+            </div>
+            <div class="testimonial">
+              <div class="quote">"I've dined at restaurants around the world, and Savoria stands among the best. Their commitment to quality and creativity is evident in every bite."</div>
+              <div class="author">- Sarah Thompson, Travel Blogger</div>
+            </div>
+            <div class="testimonial">
+              <div class="quote">"The chef's tasting menu was a culinary journey I won't soon forget. Each course was thoughtfully crafted and beautifully presented."</div>
+              <div class="author">- Michael Chen, Culinary Enthusiast</div>
+            </div>
+          </div>
+          <div class="testimonial-controls">
+            <button class="prev-btn" aria-label="Previous testimonial"><span>&lt;</span></button>
+            <div class="testimonial-dots">
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+            </div>
+            <button class="next-btn" aria-label="Next testimonial"><span>&gt;</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reservation" class="section bg-dark">
+      <div class="container">
+        <div class="section-header light">
+          <h2>Make a Reservation</h2>
+          <div class="divider light"></div>
+        </div>
+        <div class="reservation-content">
+          <div class="reservation-info animate-on-scroll">
+            <h3>Dining Hours</h3>
+            <ul class="hours-list">
+              <li><span>Monday - Thursday:</span> 5:30 PM - 10:00 PM</li>
+              <li><span>Friday - Saturday:</span> 5:00 PM - 11:00 PM</li>
+              <li><span>Sunday:</span> 5:00 PM - 9:00 PM</li>
+            </ul>
+            <p>For parties of 6 or more, please call us directly.</p>
+            <a href="tel:+12345678900" class="phone-link">+1 (234) 567-8900</a>
+          </div>
+          <div class="reservation-form-container animate-on-scroll">
+            <form id="reservation-form">
+              <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                  <select id="time" name="time" required>
+                    <option value="" disabled selected>Time</option>
+                    <option value="17:30">5:30 PM</option>
+                    <option value="18:00">6:00 PM</option>
+                    <option value="18:30">6:30 PM</option>
+                    <option value="19:00">7:00 PM</option>
+                    <option value="19:30">7:30 PM</option>
+                    <option value="20:00">8:00 PM</option>
+                    <option value="20:30">8:30 PM</option>
+                    <option value="21:00">9:00 PM</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <select id="guests" name="guests" required>
+                  <option value="" disabled selected>Party Size</option>
+                  <option value="1">1 Person</option>
+                  <option value="2">2 People</option>
+                  <option value="3">3 People</option>
+                  <option value="4">4 People</option>
+                  <option value="5">5 People</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea id="special-requests" name="special-requests" placeholder="Special Requests (Optional)"></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn">Reserve Table</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section bg-light">
+      <div class="container">
+        <div class="newsletter-content">
+          <div class="newsletter-text animate-on-scroll">
+            <h3>Stay Updated</h3>
+            <p>Subscribe to our newsletter for seasonal menu updates, special events, and exclusive offers.</p>
+          </div>
+          <div class="newsletter-form animate-on-scroll">
+            <form id="newsletter-form">
+              <div class="form-row">
+                <input type="email" id="newsletter-email" placeholder="Your Email Address" required>
+                <button type="submit" class="btn primary-btn">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <h2>Eat & Meet</h2>
+          </div>
+          <p>Elevating dining to an art form since 2015.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="icon-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="icon-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="icon-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Jalasoritola, Bogura.</p>
+          <p>Email: <a href="mailto:info@savoria.com">eat&meet@gmail.com</a></p>
+          <p>Phone: <a href="tel:+12345678900">+08801950650521</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Hours</h3>
+          <p><span>Mon-Thu:</span> 5:30 PM - 10:00 PM</p>
+          <p><span>Fri-Sat:</span> 5:00 PM - 11:00 PM</p>
+          <p><span>Sunday:</span> 5:00 PM - 9:00 PM</p>
+        </div>
+        <div class="footer-section">
+          <h3>Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 MD TAHAMED CHOWDHURY. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

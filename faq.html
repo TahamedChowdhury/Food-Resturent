@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ | Eat & Meet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/faq.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+           <img src="img/pizza-7371507_1280.png" alt="Savoria Logo" class="logo-img">
+          <h1>Eat & Meet</h1>
+        </a>
+      </div>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html" class="active">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="faq-hero" class="section-hero">
+      <div class="hero-content">
+        <h1 class="animate-fade-in">Frequently Asked Questions</h1>
+        <p class="animate-fade-in">Everything you need to know about dining with us</p>
+      </div>
+    </section>
+
+    <section id="faq-search" class="section">
+      <div class="container">
+        <div class="search-container animate-on-scroll">
+          <h2>How can we help you?</h2>
+          <div class="search-form">
+            <input type="text" id="faq-search-input" placeholder="Search for answers...">
+            <button id="search-btn" aria-label="Search"><i class="icon-search"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq-categories" class="section bg-light">
+      <div class="container">
+        <div class="faq-category-tabs animate-on-scroll">
+          <button class="category-tab active" data-category="reservations">Reservations</button>
+          <button class="category-tab" data-category="dining">Dining Experience</button>
+          <button class="category-tab" data-category="menu">Menu & Dietary Needs</button>
+          <button class="category-tab" data-category="events">Private Events</button>
+          <button class="category-tab" data-category="policies">Policies</button>
+        </div>
+
+        <div class="faq-category-content">
+          <div class="faq-category active" id="reservations">
+            <div class="accordion">
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>How can I make a reservation?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Reservations can be made through our website's reservation form, by calling us at +1 (234) 567-8900, or via email at reservations@savoria.com. We recommend booking at least two weeks in advance, especially for weekend dining.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>How far in advance can I make a reservation?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>We accept reservations up to 60 days in advance. For special occasions or large parties, we encourage booking as early as possible to secure your preferred date and time.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>What is your cancellation policy?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>We require at least 24 hours notice for cancellations or changes to your reservation. Cancellations with less than 24 hours notice may incur a fee of $25 per person. To cancel or modify your reservation, please call us directly.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Do you accept walk-ins?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>While we primarily operate on a reservation basis, we do accommodate walk-in guests when space permits. We reserve a limited number of tables for walk-in guests each evening. For the best experience, we recommend making a reservation in advance.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Is there a dress code?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>We suggest smart casual attire. While we don't enforce a strict dress code, we request that guests refrain from wearing athletic wear, beach attire, or excessively casual clothing. Jackets are not required but are welcomed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-category" id="dining">
+            <div class="accordion">
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>How long should I plan for my dining experience?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>We recommend allowing approximately 2 hours for à la carte dining and 2.5-3 hours for our tasting menu experience. We believe in allowing guests to savor each course without feeling rushed.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Do you have a bar area for drinks before dinner?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Yes, we have an elegant bar area where guests can enjoy aperitifs before their meal. We recommend arriving 15-30 minutes before your reservation time if you'd like to start with a drink at the bar.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Is there parking available?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>We offer valet parking service for $20. There are also several public parking garages within a two-block radius of the restaurant. We're easily accessible by public transportation, with the nearest subway station just a 2-minute walk away.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Do you offer wine pairings with your menu?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Yes, we offer expertly curated wine pairings to complement both our à la carte and tasting menus. Our sommelier selects wines that enhance the flavors of each dish. We offer standard pairings ($65) and premium pairings ($95) for our tasting menu.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Is the restaurant accessible for guests with mobility challenges?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Yes, our restaurant is fully accessible with ramp access at the entrance and accessible restrooms. Please let us know of any specific accommodations when making your reservation so we can ensure the most comfortable experience possible.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-category" id="menu">
+            <div class="accordion">
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>How often does your menu change?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Our menu evolves with the seasons, typically changing quarterly to showcase the finest seasonal ingredients. Certain signature dishes remain available year-round, but with seasonal adaptations. We also offer special menu items that change more frequently based on the chef's inspiration and market availability.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Can you accommodate dietary restrictions and allergies?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Absolutely. We can accommodate most dietary restrictions and allergies with advance notice. Please inform us of your needs when making your reservation and remind your server when you arrive. Our culinary team is experienced in creating wonderful alternatives for guests with specific dietary requirements.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Do you offer vegetarian and vegan options?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Yes, we offer both vegetarian and vegan options on our regular menu. We can also create a dedicated vegetarian or vegan tasting menu with advance notice. Please inform us of your dietary preference when making your reservation.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Do you have a children's menu?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>While we don't offer a dedicated children's menu, our kitchen is happy to prepare simplified versions of our dishes for younger guests. We welcome children over the age of 8 and encourage them to explore diverse flavors. Please let us know if you're dining with children when making your reservation.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Can I bring my own wine?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>We do allow guests to bring their own wine with a corkage fee of $35 per bottle, limited to two bottles per table. We kindly request that the wine you bring is not already on our wine list. If you have a special bottle you'd like to enjoy with your meal, please call ahead to confirm.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-category" id="events">
+            <div class="accordion">
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Do you host private events?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Yes, we offer several private dining options for special events. The Gallery Room accommodates up to 20 guests, the Wine Cellar seats up to 12 guests, and full restaurant buyouts are available for up to 80 guests. Each space offers a unique ambiance for your event.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Can you create custom menus for private events?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Absolutely. Our events team works closely with you to create custom menus tailored to your event's needs and preferences. We offer pre-fixed menu options, family-style service, or custom tasting menus. We can also accommodate dietary restrictions and special requests.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>How far in advance should I book a private event?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>We recommend booking private events at least 4-6 weeks in advance, and even earlier for peak seasons (December, June, and September). For full restaurant buyouts, 2-3 months advance booking is recommended. Contact our events team at events@savoria.com for availability.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Do you offer off-site catering?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>For select events, our culinary team can provide off-site catering services. These services are customized based on your event's needs and are available for events within a 25-mile radius. Please contact our events team at least 6 weeks in advance to discuss your requirements.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Can I bring my own cake for a celebration?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Yes, you may bring your own cake for special celebrations with a plating fee of $5 per person. Please inform us when making your reservation. Alternatively, our pastry chef can create a custom cake for your celebration with at least 72 hours notice. Custom cakes start at $65.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-category" id="policies">
+            <div class="accordion">
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>What is your late arrival policy?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>We hold reservations for 15 minutes past the reserved time. If you're running late, please call us as soon as possible. For arrivals more than 15 minutes late, we'll do our best to accommodate you, but your table may be released or your dining experience may be abbreviated.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Is there a minimum spend requirement?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>For regular dining, there is no minimum spend requirement. For private events, minimum spend requirements vary based on the day of the week, time of year, and the space reserved. Our events team will provide specific information during the booking process.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>What forms of payment do you accept?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>We accept all major credit cards (Visa, MasterCard, American Express, and Discover). We also accept cash but do not accept personal checks. For private events, we may require a credit card to secure the reservation.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>Is gratuity included in the bill?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>For parties of 6 or more, a 20% gratuity is automatically added to the bill. For smaller parties, gratuity is left to the discretion of the guest. For private events, a 22% service charge is added to the final bill.</p>
+                </div>
+              </div>
+              <div class="accordion-item animate-on-scroll">
+                <div class="accordion-header">
+                  <h3>What is your photography policy?</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <p>Discreet photography of your table and food is permitted. However, we ask that guests refrain from using flash photography and tripods, as they can disrupt other diners' experiences. Professional photography requires prior approval from management.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-callout" class="section">
+      <div class="container">
+        <div class="callout-container animate-on-scroll">
+          <h2>Still have questions?</h2>
+          <p>Our team is here to assist you with any additional questions or special requests.</p>
+          <div class="callout-buttons">
+            <a href="contact.html" class="btn primary-btn">Contact Us</a>
+            <a href="tel:+12345678900" class="btn secondary-btn">Call Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <h2>Eat & Meet</h2>
+          </div>
+          <p>Elevating dining to an art form since 2015.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="icon-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="icon-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="icon-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+           <h3>Contact</h3>
+          <p>Jalasoritola, Bogura.</p>
+          <p>Email: <a href="mailto:info@savoria.com">eat&meet@gmail.com</a></p>
+          <p>Phone: <a href="tel:+12345678900">+08801950650521</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Hours</h3>
+          <p><span>Mon-Thu:</span> 5:30 PM - 10:00 PM</p>
+          <p><span>Fri-Sat:</span> 5:00 PM - 11:00 PM</p>
+          <p><span>Sunday:</span> 5:00 PM - 9:00 PM</p>
+        </div>
+        <div class="footer-section">
+          <h3>Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 MD TAHAMED CHOWDHURY. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/faq.js"></script>
+</body>
+</html>

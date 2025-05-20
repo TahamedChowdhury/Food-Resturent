@@ -1,0 +1,202 @@
+/* Contact Page Specific Styles */
+
+/* Hero Section */
+#contact-hero {
+  background-image: url('https://img.freepik.com/premium-photo/hot-dogs-hamburgers-french-fries-wooden-table-fast-food-snacks-top-view_114941-2410.jpg?semt=ais_hybrid&w=740');
+}
+
+/* Contact Info Section */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xl);
+}
+
+.contact-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-method {
+  display: flex;
+  margin-bottom: var(--spacing-lg);
+}
+
+.icon {
+  flex: 0 0 40px;
+  height: 40px;
+  margin-right: var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon i {
+  width: 30px;
+  height: 30px;
+}
+
+.method-details {
+  flex: 1;
+}
+
+.method-details h3 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.method-details p {
+  margin-bottom: var(--spacing-xs);
+}
+
+.method-details p span {
+  font-weight: 700;
+}
+
+.contact-form-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form-container h3 {
+  margin-bottom: var(--spacing-md);
+}
+
+#contact-form .form-group {
+  margin-bottom: var(--spacing-md);
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: var(--spacing-xs);
+  font-weight: 500;
+}
+
+#form-submission-status {
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius-md);
+  text-align: center;
+  display: none;
+}
+
+#form-submission-status.success {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: var(--success-color);
+  border: 1px solid var(--success-color);
+  display: block;
+}
+
+#form-submission-status.error {
+  background-color: rgba(244, 67, 54, 0.1);
+  color: var(--error-color);
+  border: 1px solid var(--error-color);
+  display: block;
+}
+
+
+/* Private Events Section */
+.events-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xl);
+  align-items: center;
+}
+
+.events-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.events-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-md);
+}
+
+.events-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.events-info h3 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-md);
+}
+
+.event-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+.event-option {
+  flex: 1;
+  min-width: 200px;
+  background-color: var(--background-light);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.event-option h4 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.event-option p {
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .event-options {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    height: 350px;
+  }
+  
+  .events-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-method {
+    flex-direction: column;
+  }
+  
+  .icon {
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .map-container {
+    height: 300px;
+  }
+}
+/* Logo Styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: var(--spacing-sm);
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Eat & Meet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+           <img src="img/pizza-7371507_1280.png" alt="Savoria Logo" class="logo-img">
+          <h1>Eat & Meet</h1>
+        </a>
+      </div>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact-hero" class="section-hero">
+      <div class="hero-content">
+        <h1 class="animate-fade-in">Contact Us</h1>
+        <p class="animate-fade-in">We'd love to hear from you</p>
+      </div>
+    </section>
+
+    <section id="contact-info" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get in Touch</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-details animate-on-scroll">
+            <div class="contact-method">
+              <div class="icon">
+                <i class="icon-location"></i>
+              </div>
+              <div class="method-details">
+                <h3>Location</h3>
+                <p>Jalasoritola<br>Bogura</p>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="icon">
+                <i class="icon-phone"></i>
+              </div>
+              <div class="method-details">
+                <h3>Phone</h3>
+                <p>Reservations: <a href="tel:+12345678900">+08801950650521</a></p>
+                <p>General Inquiries: <a href="tel:+12345678901">+08801625698614</a></p>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="icon">
+                <i class="icon-email"></i>
+              </div>
+              <div class="method-details">
+                <h3>Email</h3>
+                <p>Reservations: <a href="mailto:reservations@savoria.com">eat&meet@gmail.com</a></p>
+                <p>General Inquiries: <a href="mailto:info@savoria.com">info@eat&meet.com</a></p>
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="icon">
+                <i class="icon-clock"></i>
+              </div>
+              <div class="method-details">
+                <h3>Hours</h3>
+                <p><span>Monday - Thursday:</span> 5:30 PM - 10:00 PM</p>
+                <p><span>Friday - Saturday:</span> 5:00 PM - 11:00 PM</p>
+                <p><span>Sunday:</span> 5:00 PM - 9:00 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-container animate-on-scroll">
+            <h3>Send Us a Message</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error-message"></div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error-message"></div>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone (Optional)</label>
+                <input type="tel" id="phone" name="phone">
+                <div class="error-message"></div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selected>Please select</option>
+                  <option value="reservation">Reservation Inquiry</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="private-event">Private Event</option>
+                  <option value="other">Other</option>
+                </select>
+                <div class="error-message"></div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <div class="error-message"></div>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn primary-btn">Send Message</button>
+              </div>
+              <div id="form-submission-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section id="private-events" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Private Events</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="events-content">
+          <div class="events-image animate-on-scroll">
+            <img src="https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Private dining room" />
+          </div>
+          <div class="events-info animate-on-scroll">
+            <h3>Celebrate at Savoria</h3>
+            <p>Whether you're planning an intimate dinner, corporate event, or celebration, Savoria offers elegant private dining spaces and customized menus to make your event memorable.</p>
+            <div class="event-options">
+              <div class="event-option">
+                <h4>The Gallery Room</h4>
+                <p>Capacity: Up to 20 guests</p>
+                <p>Perfect for intimate gatherings and business dinners.</p>
+              </div>
+              <div class="event-option">
+                <h4>The Wine Cellar</h4>
+                <p>Capacity: Up to 12 guests</p>
+                <p>A unique setting surrounded by our curated wine collection.</p>
+              </div>
+              <div class="event-option">
+                <h4>Full Restaurant Buyout</h4>
+                <p>Capacity: Up to 80 guests</p>
+                <p>Exclusive use of Savoria for your special event.</p>
+              </div>
+            </div>
+            <p>For more information on private events, please contact our events team.</p>
+            <a href="mailto:events@savoria.com" class="btn secondary-btn">Email Events Team</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <h2>Eat & Meet</h2>
+          </div>
+          <p>Elevating dining to an art form since 2015.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="icon-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="icon-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="icon-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+           <h3>Contact</h3>
+          <p>Jalasoritola, Bogura.</p>
+          <p>Email: <a href="mailto:info@savoria.com">eat&meet@gmail.com</a></p>
+          <p>Phone: <a href="tel:+12345678900">+08801950650521</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Hours</h3>
+          <p><span>Mon-Thu:</span> 5:30 PM - 10:00 PM</p>
+          <p><span>Fri-Sat:</span> 5:00 PM - 11:00 PM</p>
+          <p><span>Sunday:</span> 5:00 PM - 9:00 PM</p>
+        </div>
+        <div class="footer-section">
+          <h3>Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy;2025 MD TAHAMED CHOWDHURY. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
